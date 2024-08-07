@@ -1,5 +1,6 @@
 import './App.css'
 import Header from './Components/Header/Header.jsx'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -7,15 +8,8 @@ function App() {
     <>
       <Header />
     </>
-import Footer from './components/Footer'
-function App() {
-  return (
-    <div className='app'>
-       <Footer />
-       
-    </div>
 
   )
 }
 
-export default App
+export default App;
