@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import './Header.css';
-import Input from './Input.jsx';
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,11 +31,12 @@ function Header() {
         </div>
 
         <div className='Search-Section'>
-          <Input placeholder="Search here" />
-          <button className='search-button'>
-            <i className="fa-solid fa-magnifying-glass"></i>
-          </button>
-        </div>
+             <input type="text" className='search-input' placeholder="Search here" />
+            <button className='search-button'>
+                    <i className="fa-solid fa-magnifying-glass"></i>
+            </button>
+       </div>
+
 
         {/* Hamburger Icon */}
         <div className='hamburger' onClick={toggleMenu}>
@@ -44,6 +44,7 @@ function Header() {
           <div className={`bar ${isOpen ? 'active' : ''}`}></div>
           <div className={`bar ${isOpen ? 'active' : ''}`}></div>
         </div>
+
       </nav>
     </header>
   );
