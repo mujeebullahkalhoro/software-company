@@ -1,5 +1,4 @@
 import "./Footer.css";
-import Button from "../Button";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -7,6 +6,8 @@ import {
   faTwitter,
   faGoogle,
 } from "@fortawesome/free-brands-svg-icons";
+import Button from './Button'
+
 
 export default function Footer() {
   return (
