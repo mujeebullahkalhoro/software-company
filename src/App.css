@@ -1,6 +1,14 @@
+<<<<<<< HEAD
 #root {
   max-width: 1280px;
   padding: 0px;
   margin: 0px;
 }
 
+=======
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+>>>>>>> 0018f925c07032a92355399919c3f3a53a7430d5
